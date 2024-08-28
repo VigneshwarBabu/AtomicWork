@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="User API Suite" parallel="false">
+  <test name="GET API Tests">
+        <groups>
+            <run>
+                <include name="GetUser"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="src/main/java/tests/UserAPITest.java"/>
+        </classes>
+    </test>
+    <test name="PUT API Tests">
+        <groups>
+            <run>
+                <include name="CreateUser"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="src/main/java/tests/UserAPITest.java"/>
+        </classes>
+    </test>
+    <test name="GET API Tests">
+        <groups>
+            <run>
+                <include name="UpdateUser"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="src/main/java/tests/UserAPITest.java"/>
+        </classes>
+    </test>
+    <test name="GET API Tests">
+        <groups>
+            <run>
+                <include name="DeleteUser"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="src/main/java/tests/UserAPITest.java"/>
+        </classes>
+    </test>
+    
+    <test name="All API Tests">
+        <classes>
+            <class name="src/main/java/tests/UserAPITest.java"/>
+        </classes>
+    </test>
+    
+</suite>
